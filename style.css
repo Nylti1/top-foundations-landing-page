@@ -127,3 +127,23 @@
 }
 
 /* Seccion .quote */
+
+.quote {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  /* font-weight: ; */
+  max-width: 650px;
+}
+
+.quote-author {
+  justify-content: flex-end;
+}

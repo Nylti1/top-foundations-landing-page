@@ -20,7 +20,8 @@
 
 /* Seccion "header" */
 
-.header {
+.header,
+.footer {
   background-color: #1f2937;
   padding: 16px;
 }
@@ -67,14 +68,14 @@
   font-weight: bold;
 }
 
-.desc-btn {
-  width: 86px;
+.btn {
+  width: 100px;
   padding: 6px 12px;
   color: white;
   background-color: #3882f6;
-  font-weight: bold;
+  font-weight: 900;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
@@ -150,3 +151,45 @@
 }
 
 /* Seccion "call to action" */
+
+.call-to-action {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  width: 800px;
+  height: 120px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cta-title {
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cta-subtitle {
+  color: #e5e7eb;
+}
+
+.btn.cta-btn {
+  border: 2px solid white;
+}
+
+/* Seccion "footer" */
+
+.footer {
+  color: #e5e7eb;
+  padding: 28px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
